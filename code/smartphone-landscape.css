@@ -1,0 +1,783 @@
+@media (min-width: 576px) and (max-width: 767.98px) {
+  * {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Lexend", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body {
+    background-color: white;
+
+    margin: auto;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* todo -- default elements css-- */
+  a {
+    text-decoration: none;
+    font-size: 1.3vw;
+  }
+
+  h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    color: #183b56;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 4.5vw;
+    font-weight: 700;
+    color: #183b56;
+  }
+
+  h3 {
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: #183b56;
+  }
+
+  p {
+    font-size: 2vw;
+    font-weight: 600;
+    color: #577592;
+    margin: 10px 0px;
+  }
+
+  p.lite {
+    color: #577592;
+  }
+
+  p.bold {
+    color: #183b56;
+  }
+
+  li {
+    list-style: none;
+    color: #577592;
+    color: #577592;
+    font-weight: 600;
+  }
+
+  button {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    border-style: none;
+    border-radius: 3px;
+    transition: all linear 0.15s;
+    color: #577592;
+  }
+
+  /* todo main-container */
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  /* todo banner */
+  .banner {
+    height: 60px;
+    background-size: 300px;
+    background-color: #4fadf5;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner a {
+    color: white;
+    font-size: 1.8vw;
+  }
+
+  .banner a:hover {
+    cursor: auto;
+  }
+
+  /* todo header below */
+  .navbar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* todo navbar left */
+  .nav-left {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+  }
+
+  .nav-left img {
+    width: 40%;
+  }
+
+  /* todo menu button */
+  .nav-left .ri-menu-5-fill {
+    display: block;
+    font-size: 3vw;
+    transition: all linear 0.15s;
+    font-weight: 700;
+  }
+
+  .nav-left .ri-menu-5-fill:hover {
+    cursor: auto;
+    color: #2294ed;
+  }
+
+  .btn-navbar-left {
+    background-color: #183b56;
+    transition: all linear 0.15s;
+    color: white;
+    display: none;
+  }
+
+  .btn-navbar-left:hover {
+    cursor: pointer;
+    background-color: #2294ed;
+  }
+
+  /* todo navbar right */
+  .nav-right {
+    width: 56%;
+    height: 90px;
+    display: none;
+  }
+
+  .nav-right ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+  }
+
+  .nav-right ul li {
+    transition: all linear 0.15s;
+    font-size: 1.4vw;
+    color: #183b56;
+  }
+
+  .nav-right ul li:hover {
+    cursor: auto;
+  }
+
+  .btn-navbar-white {
+    padding: 0px 0px;
+    color: #183b56;
+    border: 1px solid #183b56;
+  }
+
+  .btn-navbar-white:hover {
+    cursor: auto;
+  }
+
+  .btn-navbar-blue {
+    padding: 0px 0px;
+    color: white;
+    background-color: #2294ed;
+    border: 1px solid #2294ed;
+  }
+
+  .btn-navbar-blue:hover {
+    cursor: auto;
+    border: 1px solid #183b56;
+    background-color: #183b56;
+  }
+
+  /*  todo <--- hero section ---> */
+
+  .hero {
+    padding: 0px;
+
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  /* todo hero left */
+  .hero-left {
+    width: 100%;
+    padding: 15px 0px;
+  }
+
+  .hero-left p {
+    font-size: 2.3vw;
+    margin-bottom: 30px;
+  }
+
+  .hero-left-btnsection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .hero-left-btn-blue {
+    width: 40%;
+    padding: 10px 0px;
+    color: white;
+    background-color: #2294ed;
+    border: 1px solid #2294ed;
+    transition: all linear 0.15s;
+  }
+
+  .hero-left-btn-blue:hover {
+    cursor: auto;
+    background-color: #183b56;
+    border: 1px solid #183b56;
+  }
+
+  .hero-left-btnsection p {
+    font-size: 2vw;
+    margin-bottom: 0px;
+  }
+  /* todo hero right */
+
+  .hero-right {
+    width: 100%;
+  }
+
+  .hero-right img {
+    width: 90%;
+    align-self: center;
+  }
+
+  /* todo companies section */
+
+  .companies {
+    margin: 10px 0px;
+
+    width: 100%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* todo companies top */
+  .companies-top {
+    width: 100%;
+  }
+
+  .companies-top h3 {
+    font-size: 2.1vw;
+    text-align: center;
+  }
+
+  /* todo companies bottom */
+  .companies-bottom {
+    gap: 5px 20px;
+
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .companies-bottom img {
+    height: 30px;
+  }
+
+  /* todo small features  */
+
+  .small-features {
+    padding-top: 10px;
+
+    margin: 20px 0px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  /* todo small features top */
+  .small-features-top {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .small-features-top h2 {
+    margin-bottom: 20px;
+  }
+
+  .btn-small-features-top {
+    padding: 10px;
+    color: #183b56;
+    font-size: 12px;
+    border: 1px solid #183b56;
+  }
+
+  .btn-small-features-top:hover {
+    cursor: auto;
+    color: #2294ed;
+    border-color: #2294ed;
+  }
+
+  /* todo small features bottom */
+  .small-features-bottom {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .small-box {
+    width: 40%;
+    text-align: center;
+
+    margin: 20px 0px;
+    padding: 0px 10px;
+  }
+
+  .small-box img {
+    width: 40px;
+  }
+
+  .small-features-bottom h3 {
+    font-size: 2vw;
+    margin-top: 10px;
+  }
+
+  .small-features-bottom p {
+    margin: 5px 0px 20px 0px;
+  }
+
+  .btn-small-feature {
+    padding: 7px 15px;
+    color: #183b56;
+    font-size: 10px;
+    border: 1px solid #183b56;
+  }
+
+  .btn-small-feature:hover {
+    cursor: auto;
+    color: #2294ed;
+    border-color: #2294ed;
+  }
+
+  /* todo big feature 01 */
+
+  .big-feature-01 {
+    padding-top: 10px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* todo big feature 01 left */
+  .big-feature-01-left {
+    width: 100%;
+  }
+
+  .big-feature-01-left img {
+    width: 90%;
+  }
+  /* todo big feature 01 right */
+  .big-feature-01-right {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .big-feature-01-right img {
+    width: 90px;
+  }
+
+  .big-feature-01 h2 {
+    font-size: 4vw;
+  }
+
+  .big-feature-01 p.bold {
+    width: 80%;
+  }
+
+  /* todo big feature 02 */
+
+  .big-feature-02 {
+    padding-top: 0px;
+    margin: 30px 0px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* todo big feature 02 right */
+  .big-feature-02-right {
+    width: 100%;
+    align-self: right;
+  }
+
+  .big-feature-02-right img {
+    width: 90%;
+  }
+  /* todo big feature 02 left */
+  .big-feature-02-left {
+    width: 99%;
+    padding-right: 0px;
+  }
+
+  .big-feature-02-left h2 {
+    font-size: 4vw;
+  }
+
+  .big-feature-02 p.bold {
+    width: 80%;
+  }
+
+  .big-feature-02-left img {
+    width: 90px;
+  }
+
+  /* todo big feature 03 */
+  .big-feature-03 {
+    padding-top: 10px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  /* todo big feature 03 left */
+  .big-feature-03-left {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .big-feature-03-left img {
+    width: 90%;
+  }
+
+  /* todo big feature 03 right */
+  .big-feature-03-right {
+    width: 99%;
+    padding-left: 0px;
+  }
+
+  .big-feature-03-right h2 {
+    font-size: 4vw;
+  }
+  .big-feature-03 p.bold {
+    width: 80%;
+  }
+
+  .big-feature-03-right img {
+    width: 100px;
+  }
+
+  /* todo big feature profile, this will apply in all profiles of BIG FEATURE SECTION */
+  .profile {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    align-items: center;
+  }
+
+  .profile-left img {
+    width: 60px;
+    padding-right: 2px;
+  }
+
+  .profile-right {
+    padding-left: 10px;
+  }
+
+  .profile-right p.lite {
+    font-size: 1.6vw;
+  }
+
+  /* todo section examples */
+  .examples {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  /* todo examples top */
+  .examples-top {
+    width: 99%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .examples-top h2 {
+    margin-bottom: 15px;
+  }
+
+  .btn-examples-top {
+    padding: 12px 24px;
+    color: #183b56;
+    border: 1px solid #183b56;
+    font-size: 12px;
+  }
+
+  .btn-examples-top:hover {
+    cursor: pointer;
+    color: #2294ed;
+    border-color: #2294ed;
+  }
+
+  /* todo examples bottom */
+  .examples-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 99%;
+  }
+
+  .examples-card {
+    margin: 10px 0px;
+
+    width: 42%;
+    min-height: 350px;
+    position: relative;
+    padding: 10px;
+
+    transition: all linear 0.15s;
+  }
+
+  .examples-card:hover {
+    cursor: auto;
+    box-shadow: 6px 6px 6px 0px black;
+  }
+
+  /* todo individual item in examples bottom section */
+ 
+
+  .examples-card .bold {
+    position: absolute;
+    color: white;
+    text-align: left;
+    top: 70%;
+    font-size: 3vw;
+  }
+
+  /* todo cta */
+
+  .cta {
+    padding: 10px 0px;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-color: #183b56;
+  
+    background-size: 100%;
+    align-items: center;
+  }
+
+  /* todo cta left */
+
+  .cta-left {
+    width: 90%;
+    padding-left: 5px;
+  }
+
+  /* todo cta left top */
+
+  .cta-left-top .bold {
+    color: white;
+    font-size: 2.5vw;
+  }
+
+  /* todo cta cta left mid */
+  .cta-left-mid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 10px 0px;
+    gap: 0px 20px;
+  }
+
+  .cta-left-top h2 {
+    color: white;
+    font-size: 5vw;
+  }
+  .cta-left-mid-left h3 {
+    padding-bottom: 11px;
+    color: white;
+    font-size: 3vw;
+  }
+
+  .cta-left-mid ul li {
+    list-style-type: disc;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 0px;
+  }
+
+  /* todo cta left bottom */
+
+  .cta-left-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 20px;
+    margin: 20px 0px 30px 0px;
+  }
+
+  .cta-left-bottom .bold {
+    color: white;
+  }
+
+  /* buttons */
+  /* todo button cta left */
+  .btn-cta-left {
+    padding: 12px 24px;
+    color: #183b56;
+    border: 1px solid #183b56;
+  }
+
+  .btn-cta-left {
+    color: white;
+    border: 1px solid #3b99ec;
+    background-color: #3b99ec;
+  }
+
+  .btn-cta-left:hover {
+    cursor: auto;
+    background-color: #183b54;
+  }
+
+  .cta-left-bottom-db {
+    background-color: #183b54;
+    border: 1px solid #8ba3bb;
+    color: white;
+    padding: 12px 24px;
+  }
+
+  .cta-left-bottom-db:hover {
+    color: #3b99ec;
+    cursor: auto;
+  }
+
+  /* todo cta right */
+  .cta-right {
+    width: 99%;
+  }
+
+  .cta-right img {
+    width: 100%;
+  }
+
+  /* todo footer */
+  .footer {
+    padding: 0px;
+    width: 100%;
+
+    display: flex;
+    background-size: 50%;
+    min-height: 800px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .individual-footer img {
+    width: 95%;
+  }
+
+  .individual-footer {
+    width: 45%;
+    height: 40%;
+  }
+
+  .individual-footer p.bold {
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .individual-footer p.lite {
+    font-weight: 600;
+    font-size: 2vw;
+    color: #4fadf5;
+    transform: all linear 0.15s;
+    text-align: center;
+  }
+
+  .individual-footer p.lite:hover {
+    color: #183b56;
+    cursor: pointer;
+  }
+
+  /* todo sub footer */
+  .sub-footer {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #b9cde4;
+
+    background-size: 50%;
+  }
+
+  .sub-footer .text {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 30px;
+    align-items: center;
+  }
+
+  .text .bold {
+    font-weight: 600;
+    transition: all linear 0.15s;
+  }
+
+  .sub-footer .social {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 15px;
+    align-items: center;
+  }
+
+  .sub-footer i {
+    font-size: 1.8vw;
+    transition: all linear 0.15s;
+  }
+
+  i:hover {
+    cursor: auto;
+    color: #4fadf5;
+  }
+
+  .text p.bold:hover {
+    cursor: auto;
+    color: #4fadf5;
+  }
+}
