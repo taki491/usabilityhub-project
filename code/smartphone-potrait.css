@@ -549,7 +549,7 @@
   }
 
   .btn-examples-top:hover {
-    cursor: pointer;
+    cursor: auto;
     color: #2294ed;
     border-color: #2294ed;
   }
